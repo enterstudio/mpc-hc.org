@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - grunt-contrib-csslint > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-uncss > async > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-eslint > eslint > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-html > async > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-eslint > eslint > inquirer > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-eslint > eslint > table > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-accessibility > access-sniff > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
+    - grunt-uncss > uncss > request > form-data > async > lodash:
+        patched: '2020-04-30T22:38:38.471Z'
